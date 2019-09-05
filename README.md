@@ -15,7 +15,21 @@ cd frontend
 ## 使用方法
 
 ### 修改配置
+修改app/config/settings.py使用开发环境配置
+```
+APP_ENV = DevelopmentConfig
+```
+修改app/config/dev.py根据自己情况设置数据库等信息，数据库提前创建好
+```
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1:3306/PMS?charset=utf8mb4'
+```
 
+### 运行程序，默认监听host='0.0.0.0', port='5000'
+python3 run.py
+
+### 创建第一个用户，PMS默认第一个用户为管理员
+http://127.0.0.1:5000打开swagger，在页面创建用户 username: admin password: admin
+![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/backend.jpg)
 
 ### 一些细节实现相关文章
 
