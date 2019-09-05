@@ -63,6 +63,11 @@ npm i
 npm run dev
 ```
 
+### 登录
+http://127.0.0.1:5000 使用刚才创建的账号admin/admin登录
+
+![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/frontend.jpg)
+
 ### 一些细节实现相关文章
 
 标题：利用二进制位运算实现权限控制
