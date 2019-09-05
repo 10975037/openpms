@@ -23,13 +23,45 @@ APP_ENV = DevelopmentConfig
 ```
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1:3306/PMS?charset=utf8mb4'
 ```
+### 安装依赖
+```
+pip3 install -r requirements.txt
+```
 
 ### 运行程序，默认监听host='0.0.0.0', port='5000'
+```
 python3 run.py
+```
 
 ### 创建第一个用户，PMS默认第一个用户为管理员
-http://127.0.0.1:5000打开swagger，在页面创建用户 username: admin password: admin
+http://127.0.0.1:5000 打开swagger，在页面创建用户 username: admin password: admin
+
 ![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/backend.jpg)
+
+# 前端
+
+## 使用方法
+
+### 修改配置
+修改config/dev.env.js指定后端API地址
+```
+BASE_API: '"http://127.0.0.1:5000/v1"'
+```
+修改config/index.js指定前端监听地址
+```
+    host: '0.0.0.0',
+    port: 9999,
+```
+
+### 安装依赖
+```
+npm i
+```
+
+### 启动程序
+```
+npm run dev
+```
 
 ### 一些细节实现相关文章
 
