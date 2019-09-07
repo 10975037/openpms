@@ -24,18 +24,18 @@ admin登录PMS系统，管理用户组权限显示完整菜单
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking01.jpg)
 
-guest登录PMS系统，访客用户组权限只显示部分菜单
+test登录PMS系统，访客用户组权限只显示部分菜单
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking02.jpg)
 
 
 ### 演示对url和页面元素类型资源的权限控制
-guest登录PMS系统
+test登录PMS系统
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking03.jpg)
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking04.jpg)
 
-guest登录对接应用系统
+test登录对接应用系统
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking05.jpg)
 
@@ -47,11 +47,11 @@ guest登录对接应用系统
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking07.jpg)
 
-guest登录PMS系统，添加url权限
+test登录PMS系统，添加url权限
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking08.jpg)
 
-guest登录对接应用系统，点击测试得到请求返回值
+test登录对接应用系统，点击测试得到请求返回值
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking09.jpg)
 
