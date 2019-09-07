@@ -1,6 +1,15 @@
 # PMS统一权限管理系统
 permission management system 支持多应用的统一权限管理系统，flask+vue实现
 
+# 在线demo:
+pms前端：www.seczh.com
+pms后端：www.seczh.com:3344
+账号：admin/admin test/test
+
+对接应用前端：www.devopser.org:81
+对接应用后端：www.devopser.org:7788
+账号：test/test
+
 # 克隆
 ```
 git clone https://github.com/fish2018/pms.git
