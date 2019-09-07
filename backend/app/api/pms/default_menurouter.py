@@ -34,12 +34,6 @@ default_menurouter = [
         ]
       },
       {
-        "path": 'group',
-        "name": 'Group',
-        "component":'/pms/organization/index.vue',
-        "meta": { "title": '组织管理', "icon": 'table' }
-      },
-      {
         "path": 'permission',
         "name": 'Permission',
         "component": '/pms/permission/index.vue',
@@ -58,6 +52,12 @@ default_menurouter = [
             "meta": { "title": '菜单权限', "icon": 'table' },
           }
         ]
+      },
+      {
+        "path": 'group',
+        "name": 'Group',
+        "component":'/pms/organization/index.vue',
+        "meta": { "title": '组织管理', "icon": 'table' }
       }
     ]
   }

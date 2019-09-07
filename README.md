@@ -21,6 +21,9 @@ APP_ENV = DevelopmentConfig
 ```
 修改app/config/dev.py根据自己情况设置数据库等信息，数据库提前创建好
 ```
+CREATE DATABASE `PMS` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+```
+```
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:123456@127.0.0.1:3306/PMS?charset=utf8mb4'
 ```
 ### 安装依赖
@@ -55,7 +58,7 @@ BASE_API: '"http://127.0.0.1:5000/v1"'
 
 ### 安装依赖
 ```
-npm i
+npm install --unsafe-perm
 ```
 
 ### 启动程序
