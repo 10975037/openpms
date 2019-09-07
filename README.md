@@ -121,6 +121,6 @@ npm run dev
 ```
 
 ### 登录
-http://127.0.0.1:5000 使用刚才创建的账号admin/admin登录
+http://127.0.0.1:9999 使用刚才创建的账号admin/admin登录
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/frontend.jpg)
