@@ -3,6 +3,10 @@ permission management system 支持多应用的统一权限管理系统，flask+
 
 更多查看： http://www.devopser.org/articles/2019/09/05/1567663209232.html
 
+该项目的其他两位贡献伙伴：
+kevin-xuan@outlook.com
+xxx
+
 ## 在线demo:
 
 - pms
