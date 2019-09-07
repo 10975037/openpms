@@ -19,6 +19,42 @@ xxx
   - 后端: www.devopser.org:7788
   - 账号: test/test
 
+### 演示菜单的权限控制
+admin登录PMS系统，管理用户组权限显示完整菜单
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking01.jpg)
+
+guest登录PMS系统，访客用户组权限只显示部分菜单
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking02.jpg)
+
+
+### 演示对url和页面元素类型资源的权限控制
+guest登录PMS系统
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking03.jpg)
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking04.jpg)
+
+guest登录对接应用系统
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking05.jpg)
+
+对按钮添加禁止权限，同时不添加url操作权限
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking06.jpg)
+
+点击测试，按钮被隐藏掉，并提示对api的url请求无权限，
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking07.jpg)
+
+guest登录PMS系统，添加url权限
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking08.jpg)
+
+guest登录对接应用系统，点击测试得到请求返回值
+
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking09.jpg)
+
 ## 克隆
 ```
 git clone https://github.com/fish2018/openpms.git
@@ -59,7 +95,7 @@ python3 run.py
 ### 创建第一个用户，PMS默认第一个用户为管理员
 http://127.0.0.1:5000 打开swagger，在页面创建用户 username: admin password: admin
 
-![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/backend.jpg)
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/backend.jpg)
 
 ## PMS前端
 
@@ -87,4 +123,4 @@ npm run dev
 ### 登录
 http://127.0.0.1:5000 使用刚才创建的账号admin/admin登录
 
-![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/frontend.jpg)
+![](https://raw.githubusercontent.com/fish2018/openpms/master/img/frontend.jpg)
