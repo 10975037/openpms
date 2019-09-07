@@ -3,7 +3,7 @@ permission management system 支持多应用的统一权限管理系统，flask+
 
 更多查看： http://www.devopser.org/articles/2019/09/05/1567663209232.html
 
-# 在线demo:
+## 在线demo:
 
 - pms
   - 前端: www.seczh.com
@@ -15,18 +15,20 @@ permission management system 支持多应用的统一权限管理系统，flask+
   - 后端: www.devopser.org:7788
   - 账号: test/test
 
-# 克隆
+## 克隆
 ```
 git clone https://github.com/fish2018/pms.git
-# 后端
+# PMS后端
 cd backend
-# 前端
+# PMS前端
 cd frontend
+# 对接应用系统的demo，可以作为对接应用的开发框架。实现了pms的对接，演示了url类型资源、页面元素类型资源和菜单的权限控制；
+# pms.sql初始化测试数据，注释中有详细说明，DEMO应用的APP_ID=2
+# 注意对接应用和PMS系统要使用不同域名(不要使用相同域名的不同端口)
+cd pms-docking-demo
 ```
 
-# 后端
-
-## 使用方法
+## PMS后端
 
 ### 修改配置
 修改app/config/settings.py使用开发环境配置
@@ -55,9 +57,7 @@ http://127.0.0.1:5000 打开swagger，在页面创建用户 username: admin pass
 
 ![](https://raw.githubusercontent.com/fish2018/pms-template/master/img/backend.jpg)
 
-# 前端
-
-## 使用方法
+## PMS前端
 
 ### 修改配置
 修改config/dev.env.js指定后端API地址
