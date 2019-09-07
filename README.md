@@ -21,7 +21,7 @@ xxx
 
 ## 克隆
 ```
-git clone https://github.com/fish2018/pms.git
+git clone https://github.com/fish2018/openpms.git
 # PMS后端
 cd backend
 # PMS前端
