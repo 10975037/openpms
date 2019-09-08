@@ -33,13 +33,14 @@ test登录PMS系统，访客用户组权限只显示部分菜单
 test登录PMS系统
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking03.jpg)
+
+对按钮添加禁止权限，同时不添加url操作权限
+
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking04.jpg)
 
 test登录对接应用系统
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking05.jpg)
-
-对按钮添加禁止权限，同时不添加url操作权限
 
 ![](https://raw.githubusercontent.com/fish2018/openpms/master/img/docking06.jpg)
 
