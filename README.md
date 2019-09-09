@@ -1,11 +1,12 @@
-# PMS统一权限管理系统
+# PMS统一权限管理系统 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 permission management system 支持多应用的统一权限管理系统，flask+vue实现
 
 更多查看： http://www.devopser.org/articles/2019/09/05/1567663209232.html
 
-该项目的其他两位贡献伙伴：
+## Contribution：
+Thanks for all the people who contributed to openpms!
+
 kevin-xuan@outlook.com
-xxx
 
 ## 在线demo:
 
