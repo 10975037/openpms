@@ -8,17 +8,7 @@ Thanks for all the people who contributed to openpms!
 
 kevin-xuan@outlook.com
 
-## 在线demo:
-
-- pms
-  - 前端: www.seczh.com
-  - 后端: www.seczh.com:3344
-  - 账号: admin/admin test/test
-
-- 对接应用
-  - 前端: www.devopser.org:81
-  - 后端: www.devopser.org:7788
-  - 账号: test/test
+## 功能演示:
 
 ### 演示菜单的权限控制
 admin登录PMS系统，管理用户组权限显示完整菜单
